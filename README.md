@@ -43,7 +43,7 @@ Problem author is
 Run the `evaluate.py` script to get a sense of how inputs map to outputs,
 you can also see this data on a 3d graph.
 
-![Evaluation plot](eval.png)
+![Evaluation plot](eval-graph.png)
 
 You can recreate the graph using [PlotLy](https://plot.ly/create/) or view
 the [existing graph](https://plot.ly/create/?fid=kburnik:3).

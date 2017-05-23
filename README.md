@@ -14,9 +14,9 @@ program will output the used washing parameters (numerical values).
 
 ## Internals
 
-The fuzzy logic implemented maps the input numerical values to their fuzzy
-descriptions and then performs the fuzzy logic operation given the set of expert
-rules.
+The implemented fuzzy logic maps the numerical input values to their fuzzy
+descriptions and then performs the fuzzy logic operation with the following set 
+of expert rules:
 
 ```python
 expert_rule_map = {
@@ -30,12 +30,12 @@ expert_rule_map = {
      (laundry_amount_fuzzy, dirt_level_fuzzy) -> powder_amount_fuzzy"""
 ```
 
-The resulting fuzzy decription of the amount of powder is finally being decoded
-into a numerical value used by the washing machine program: the powder amount in
-grams.
+As the final step, the resulting fuzzy decription of the amount of powder is decoded
+into a numerical value (required powder amount in grams) used by the simulated washing 
+machine program.
 
 Problem author is
-[Dr.sc. Marko Horvat, dipl. ing.](http://marko-horvat.name/site/).
+[Dr.sc. Marko Horvat, dipl. ing.](http://marko-horvat.name/site/)
 
 
 ## Evaluation
